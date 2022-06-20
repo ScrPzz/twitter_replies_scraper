@@ -22,9 +22,9 @@ with your login informations and url of the tweet you want to scrape and execute
 
 You only need Selenium, webdriver manager and Pandas:
 
-pip install selenium
-pip install pandas
-pip install webdriver-manager
+    pip install selenium
+    pip install pandas
+    pip install webdriver-manager
 
 
 ## TODO

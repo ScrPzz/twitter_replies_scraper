@@ -30,8 +30,10 @@ You only need Selenium, webdriver manager and Pandas:
 ## TODO
 
 ### The cookies 'quasi-wall' does note seems to bother the scraping process, but there is the 'acceppt all cookies'
-cookies_btn_xpath='/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div[2]/div[1]/div/span/span'
+
+    cookies_btn_xpath='/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div[2]/div[1]/div/span/span'
 
 ### Beyond the 'load more replies' there is some replies containing strong language and other stuff that Twitter does not want you to see. 
+
 Expecially in the case of sentiment analysis and other NLP task those can be very useful. So:
 TODO: add the kind of words you mother does not want you to use to the dataset.

@@ -9,11 +9,11 @@ Twitter APIs allow you to download tweets, but does not give you a way to scrape
 
 Just fill these fields:
 
-target_tweet='Full url of the tweet you want to scrape'
+    target_tweet='Full url of the tweet you want to scrape'
 
-twitter_usr="@your_twitter_username"
+    twitter_usr="@your_twitter_username"
 
-twitter_pass='your_twitter_password'
+    twitter_pass='your_twitter_password'
 
 
 with your login informations and url of the tweet you want to scrape and execute the full notebook. The scraped replies will be wrapped up in a dataframe.
